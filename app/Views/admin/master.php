@@ -6,15 +6,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-        <?= esc($pageName)?> | MDS
+        <?= esc($pageName) ?> | MDS
     </title>
 
     <!-- <link rel="shortcut icon" href="" type="image/x-icon"> -->
-    <link rel="icon" type="image/png" size="128x128" href="<?= base_url('assets')?>/img/AdminLTELogo.png">
+    <link rel="icon" type="image/png" size="128x128" href="<?= base_url('assets') ?>/img/AdminLTELogo.png">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-    <link rel="stylesheet" href="<?= base_url('assets')?>/plugins/fontawesome-free/css/all.min.css">
-    <link rel="stylesheet" href="<?= base_url('assets')?>/css/styles.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link rel="stylesheet" href="<?= base_url('assets') ?>/plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="<?= base_url('assets') ?>/css/styles.min.css">
 
 </head>
 
@@ -28,13 +29,15 @@
                     <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a href="<?= base_url()?>" class="nav-link">Home</a>
+                    <a href="<?= base_url() ?>" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a href="https://adminlte.io/docs/3.1/" target="_blank" title="AdminLTE Documentation" class="nav-link">Docs</a>
+                    <a href="https://adminlte.io/docs/3.1/" target="_blank" title="AdminLTE Documentation"
+                        class="nav-link">Docs</a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a href="https://github.com/ricopie/ManajemenDataSiswa" target="_blank" title="Github Repo" class="nav-link">Github Repo</a>
+                    <a href="https://github.com/ricopie/ManajemenDataSiswa" target="_blank" title="Github Repo"
+                        class="nav-link">Github Repo</a>
                 </li>
             </ul>
 
@@ -47,14 +50,15 @@
                     <div class="navbar-search-block">
                         <form class="form-inline">
                             <div class="input-group input-group-sm">
-                                <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+                                <input class="form-control form-control-navbar" type="search" placeholder="Search"
+                                    aria-label="Search">
                                 <div class="input-group-append">
                                     <button class="btn btn-navbar" type="submit">
-<i class="fas fa-search"></i>
-</button>
+                                        <i class="fas fa-search"></i>
+                                    </button>
                                     <button class="btn btn-navbar" type="button" data-widget="navbar-search">
-<i class="fas fa-times"></i>
-</button>
+                                        <i class="fas fa-times"></i>
+                                    </button>
                                 </div>
                             </div>
                         </form>
@@ -70,7 +74,8 @@
                         <a href="#" class="dropdown-item">
 
                             <div class="media">
-                                <img src="<?= base_url('assets')?>/img/avatar5.png" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+                                <img src="<?= base_url('assets') ?>/img/avatar5.png" alt="User Avatar"
+                                    class="img-size-50 mr-3 img-circle">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         Brad Diesel
@@ -86,7 +91,8 @@
                         <a href="#" class="dropdown-item">
 
                             <div class="media">
-                                <img src="<?= base_url('assets')?>/img/avatar4.png" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                                <img src="<?= base_url('assets') ?>/img/avatar4.png" alt="User Avatar"
+                                    class="img-size-50 img-circle mr-3">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         John Pierce
@@ -102,11 +108,13 @@
                         <a href="#" class="dropdown-item">
 
                             <div class="media">
-                                <img src="<?= base_url('assets')?>/img/avatar2.png" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                                <img src="<?= base_url('assets') ?>/img/avatar2.png" alt="User Avatar"
+                                    class="img-size-50 img-circle mr-3">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         Nora Silvester
-                                        <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+                                        <span class="float-right text-sm text-warning"><i
+                                                class="fas fa-star"></i></span>
                                     </h3>
                                     <p class="text-sm">The subject goes here</p>
                                     <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
@@ -160,8 +168,9 @@
 
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
 
-            <a href="<?= base_url()?>" class="brand-link">
-                <img src="<?= base_url('assets')?>/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+            <a href="<?= base_url() ?>" class="brand-link">
+                <img src="<?= base_url('assets') ?>/img/AdminLTELogo.png" alt="AdminLTE Logo"
+                    class="brand-image img-circle elevation-3" style="opacity: .8">
                 <span class="brand-text font-weight-light">MDS</span>
             </a>
 
@@ -169,7 +178,8 @@
 
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="image">
-                        <img src="<?= base_url('assets')?>/img/Ricopie-Github.jpeg" class="img-circle elevation-2" alt="User Image">
+                        <img src="<?= base_url('assets') ?>/img/Ricopie-Github.jpeg" class="img-circle elevation-2"
+                            alt="User Image">
                     </div>
                     <div class="info">
                         <a href="#" class="d-block">Ricopie</a>
@@ -178,64 +188,47 @@
 
                 <div class="form-inline d-none invisible">
                     <div class="input-group" data-widget="sidebar-search">
-                        <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+                        <input class="form-control form-control-sidebar" type="search" placeholder="Search"
+                            aria-label="Search">
                         <div class="input-group-append">
                             <button class="btn btn-sidebar">
-<i class="fas fa-search fa-fw"></i>
-</button>
+                                <i class="fas fa-search fa-fw"></i>
+                            </button>
                         </div>
                     </div>
                 </div>
 
                 <nav class="mt-2">
-                    <ul class="nav nav-pills nav-sidebar flex-column nav-child-indent" data-widget="treeview" role="menu" data-accordion="false">
+                    <ul class="nav nav-pills nav-sidebar flex-column nav-child-indent" data-widget="treeview"
+                        role="menu" data-accordion="false">
 
-                    <li class="nav-item">
-                        <a href="<?= site_url('admin')?>" class="nav-link active">
-                            <i class="nav-icon fas fa-tachometer-alt"></i>
-                            <p>
-                                Dashboard
-                            </p>
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <i class="nav-icon fas fa-folder"></i>
-                            <p>
-                                Kesiswaan
-                                <i class="right fas fa-angle-left"></i>
-                            </p>
-                        </a>
-                        <ul class="nav nav-treeview">
-                            <li class="nav-item">
-                                <a href="<?= site_url('admin/data_siswa')?>" class="nav-link">
-                                    <i class="nav-icon fas fa-folder-open"></i>
-                                    <p>Data Siswa</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>   
-
-
-
-
-
-
-
-
-
-
-
-                        <li class="nav-item d-none invisible">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-th"></i>
+                        <li class="nav-item">
+                            <a href="<?= site_url('admin') ?>" class="nav-link active">
+                                <i class="nav-icon fas fa-tachometer-alt"></i>
                                 <p>
-                                    Simple Link
-                                    <span class="right badge badge-danger">New</span>
+                                    Dashboard
                                 </p>
                             </a>
                         </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fas fa-folder"></i>
+                                <p>
+                                    Kesiswaan
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="<?= site_url('admin/data_siswa') ?>" class="nav-link">
+                                        <i class="nav-icon fas fa-folder-open"></i>
+                                        <p>Data Siswa</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
                     </ul>
                 </nav>
 
@@ -249,12 +242,12 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0"><?= esc($pageName)?></h1>
+                            <h1 class="m-0"><?= esc($pageName) ?></h1>
                         </div>
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item"><a href="#<?= base_url()?>">Home</a></li>
-                                <li class="breadcrumb-item active"><?= esc($pageName)?></li>
+                                <li class="breadcrumb-item"><a href="#<?= base_url() ?>">Home</a></li>
+                                <li class="breadcrumb-item active"><?= esc($pageName) ?></li>
                             </ol>
                         </div>
                     </div>
@@ -288,13 +281,13 @@
                 <strong>Version</strong> 3.2.0
             </div>
 
-            <strong>Copyright &copy; 2024 <a href="<?= base_url()?>">MDS</a>.</strong> All rights reserved.
+            <strong>Copyright &copy; 2024 <a href="<?= base_url() ?>">MDS</a>.</strong> All rights reserved.
         </footer>
     </div>
 
-    <script src="<?= base_url('assets')?>/plugins/jquery/jquery.min.js"></script>
-    <script src="<?= base_url('assets')?>/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="<?= base_url('assets')?>/js/scripts.js"></script>
+    <script src="<?= base_url('assets') ?>/plugins/jquery/jquery.min.js"></script>
+    <script src="<?= base_url('assets') ?>/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url('assets') ?>/js/scripts.js"></script>
 </body>
 
 </html>
