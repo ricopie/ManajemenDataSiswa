@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-        <?= esc($pageName)?>
+        <?= esc($pageName)?> | MDS
     </title>
 
     <!-- <link rel="shortcut icon" href="" type="image/x-icon"> -->
