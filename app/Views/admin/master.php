@@ -70,7 +70,7 @@
                         <a href="#" class="dropdown-item">
 
                             <div class="media">
-                                <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+                                <img src="<?= base_url('assets')?>/img/avatar5.png" alt="User Avatar" class="img-size-50 mr-3 img-circle">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         Brad Diesel
@@ -86,7 +86,7 @@
                         <a href="#" class="dropdown-item">
 
                             <div class="media">
-                                <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                                <img src="<?= base_url('assets')?>/img/avatar4.png" alt="User Avatar" class="img-size-50 img-circle mr-3">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         John Pierce
@@ -102,7 +102,7 @@
                         <a href="#" class="dropdown-item">
 
                             <div class="media">
-                                <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                                <img src="<?= base_url('assets')?>/img/avatar2.png" alt="User Avatar" class="img-size-50 img-circle mr-3">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         Nora Silvester
@@ -188,16 +188,45 @@
                 </div>
 
                 <nav class="mt-2">
-                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                    <ul class="nav nav-pills nav-sidebar flex-column nav-child-indent" data-widget="treeview" role="menu" data-accordion="false">
 
                     <li class="nav-item">
-                            <a href="<?= site_url('admin')?>" class="nav-link active">
-                                <i class="nav-icon fas fa-tachometer-alt"></i>
-                                <p>
-                                    Dashboard
-                                </p>
-                            </a>
-                        </li>
+                        <a href="<?= site_url('admin')?>" class="nav-link active">
+                            <i class="nav-icon fas fa-tachometer-alt"></i>
+                            <p>
+                                Dashboard
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-folder"></i>
+                            <p>
+                                Kesiswaan
+                                <i class="right fas fa-angle-left"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="<?= site_url('admin/data_siswa')?>" class="nav-link">
+                                    <i class="nav-icon fas fa-folder-open"></i>
+                                    <p>Data Siswa</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>   
+
+
+
+
+
+
+
+
+
+
+
                         <li class="nav-item d-none invisible">
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-th"></i>
