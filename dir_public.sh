@@ -1,0 +1,1 @@
+sudo chown -R www-data: public/assets/ && sudo chgrp -R $USER public/assets/ && sudo chmod -R 775 public/assets/
