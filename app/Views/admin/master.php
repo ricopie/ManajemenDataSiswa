@@ -33,6 +33,9 @@
                 <li class="nav-item d-none d-sm-inline-block">
                     <a href="https://adminlte.io/docs/3.1/" target="_blank" title="AdminLTE Documentation" class="nav-link">Docs</a>
                 </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="https://github.com/ricopie/ManajemenDataSiswa" target="_blank" title="Github Repo" class="nav-link">Github Repo</a>
+                </li>
             </ul>
 
             <ul class="navbar-nav ml-auto">
@@ -159,17 +162,17 @@
 
             <a href="<?= base_url()?>" class="brand-link">
                 <img src="<?= base_url('assets')?>/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-                <span class="brand-text font-weight-light">AdminLTE 3</span>
+                <span class="brand-text font-weight-light">MDS</span>
             </a>
 
             <div class="sidebar">
 
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="image">
-                        <img src="<?= base_url('assets')?>/img/avatar5.png" class="img-circle elevation-2" alt="User Image">
+                        <img src="<?= base_url('assets')?>/img/Ricopie-Github.jpeg" class="img-circle elevation-2" alt="User Image">
                     </div>
                     <div class="info">
-                        <a href="#" class="d-block">Alexander Pierce</a>
+                        <a href="#" class="d-block">Ricopie</a>
                     </div>
                 </div>
 
@@ -297,13 +300,13 @@
             </div>
         </aside>
 
-        <footer class="main-footer">
+        <footer class="main-footer text-sm">
 
             <div class="float-right d-none d-sm-inline">
-                Anything you want
+                <strong>Version</strong> 3.2.0
             </div>
 
-            <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+            <strong>Copyright &copy; 2024 <a href="<?= base_url()?>">MDS</a>.</strong> All rights reserved.
         </footer>
     </div>
 
