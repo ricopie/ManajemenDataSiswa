@@ -166,7 +166,7 @@
             </ul>
         </nav>
 
-        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+        <aside class="main-sidebar sidebar-light-indigo elevation-4">
 
             <a href="<?= base_url() ?>" class="brand-link">
                 <img src="<?= base_url('assets') ?>/img/AdminLTELogo.png" alt="AdminLTE Logo"
@@ -203,7 +203,7 @@
                         role="menu" data-accordion="false">
 
                         <li class="nav-item">
-                            <a href="<?= site_url('admin') ?>" class="nav-link active">
+                            <a href="<?= site_url('admin') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-tachometer-alt"></i>
                                 <p>
                                     Dashboard
@@ -260,7 +260,8 @@
                         <h5>Welcome back, Admin !</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
-                    <div class="row"></div>
+
+                    <?= $this->renderSection('content'); ?>
 
                 </div>
             </div>
