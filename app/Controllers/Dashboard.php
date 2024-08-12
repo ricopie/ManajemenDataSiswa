@@ -9,6 +9,6 @@ class Dashboard extends BaseController
     public function index()
     {
         $this->data['pageName'] = 'Dashboard';
-        return view('admin/master', $this->data);
+        return view('pages/dashboard', $this->data);
     }
 }
