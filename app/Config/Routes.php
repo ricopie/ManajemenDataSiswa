@@ -12,5 +12,5 @@ $routes->get('/', static function () {
 // Route Group: Admin
 $routes->group('admin', static function ($admin) {
     $admin->get('/', 'Dashboard::index', ['as' => 'dashboard']);
-    $admin->get('data_siswa', 'Kesiswaan::index');
+    $admin->get('student', 'Student::index');
 });
