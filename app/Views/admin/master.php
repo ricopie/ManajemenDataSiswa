@@ -178,11 +178,11 @@
 
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="image">
-                        <img src="<?= base_url('assets') ?>/img/Ricopie-Github.jpeg" class="img-circle elevation-2"
+                        <img src="<?= base_url('assets') ?>/img/<?= env('github.user.profile')?>" class="img-circle elevation-2"
                             alt="User Image">
                     </div>
                     <div class="info">
-                        <a href="#" class="d-block">Ricopie</a>
+                        <a href="<?= site_url('admin')?>" class="d-block"><?= env('github.user.name')?></a>
                     </div>
                 </div>
 
@@ -212,21 +212,12 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-folder"></i>
+                            <a href="<?= site_url('admin/student') ?>" class="nav-link">
+                                <i class="nav-icon fas fa-user-graduate"></i>
                                 <p>
-                                    Kesiswaan
-                                    <i class="right fas fa-angle-left"></i>
+                                    Student
                                 </p>
                             </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="<?= site_url('admin/data_siswa') ?>" class="nav-link">
-                                        <i class="nav-icon fas fa-folder-open"></i>
-                                        <p>Data Siswa</p>
-                                    </a>
-                                </li>
-                            </ul>
                         </li>
 
                     </ul>
@@ -256,10 +247,6 @@
 
             <div class="content">
                 <div class="container-fluid">
-                    <div class="callout callout-info">
-                        <h5>Welcome back, Admin !</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
 
                     <?= $this->renderSection('content'); ?>
 
@@ -282,7 +269,7 @@
                 <strong>Version</strong> 3.2.0
             </div>
 
-            <strong>Copyright &copy; 2024 <a href="<?= base_url() ?>">MDS</a>.</strong> All rights reserved.
+            <strong>Copyright &copy; 2024 <a href="<?= base_url() ?>">MDS</a>.</strong> All rights reserved. <a href="https://codeigniter4.github.io/userguide/" title="User Guide CodeIgniter 4" target="_blank">User Guide</a>
         </footer>
     </div>
 
