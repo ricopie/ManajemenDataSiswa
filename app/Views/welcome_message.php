@@ -6,7 +6,7 @@
     <title>Welcome to CodeIgniter 4!</title>
     <meta name="description" content="The small framework with powerful features">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="/favicon.ico">
+    <link rel="shortcut icon" type="image/png" href="<?= base_url() ?>favicon.ico">
 
     <!-- STYLES -->
 
@@ -383,6 +383,7 @@
 
     <script {csp-script-nonce}>
         document.getElementById("menuToggle").addEventListener('click', toggleMenu);
+
         function toggleMenu() {
             var menuItems = document.getElementsByClassName('menu-item');
             for (var i = 0; i < menuItems.length; i++) {
