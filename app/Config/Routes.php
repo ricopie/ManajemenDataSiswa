@@ -12,7 +12,7 @@ $routes->environment('development', static function ($env) {
     $env->get('phpinfo', 'Home::phpInfo');
 });
 // Route Group: Admin
-$routes->group('admin', static function ($admin) {
+$routes->group('admin', ['filter' => 'cors'], static function ($admin) {
     $admin->get('/', 'Dashboard::index', ['as' => 'dashboard']);
     $admin->get('student', 'Student::index');
 });
