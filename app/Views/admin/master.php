@@ -14,6 +14,7 @@
 
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link rel="stylesheet" href="<?= base_url('assets') ?>/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" href="<?= base_url('assets') ?>/plugins/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="<?= base_url('assets') ?>/css/styles.min.css">
 
@@ -178,11 +179,11 @@
 
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="image">
-                        <img src="<?= base_url('assets') ?>/img/<?= env('github.user.profile')?>" class="img-circle elevation-2"
+                        <img src="<?= base_url('assets') ?>/img/<?= env('github.user.profile') ?>" class="img-circle elevation-2"
                             alt="User Image">
                     </div>
                     <div class="info">
-                        <a href="<?= site_url('admin')?>" class="d-block"><?= env('github.user.name')?></a>
+                        <a href="<?= site_url('admin') ?>" class="d-block"><?= env('github.user.name') ?></a>
                     </div>
                 </div>
 
@@ -266,7 +267,7 @@
         <footer class="main-footer text-sm">
 
             <div class="float-right d-none d-sm-inline">
-                <strong>Version</strong> 3.2.0
+                <span>Version 3.2.0 | PHP: <a href="<?= site_url('phpinfo') ?>" title="PHP Info" target="_blank"><?= PHP_VERSION ?></a> | Env: <?= ENVIRONMENT ?></span>
             </div>
 
             <strong>Copyright &copy; 2024 <a href="<?= base_url() ?>">MDS</a>.</strong> All rights reserved. <a href="https://codeigniter4.github.io/userguide/" title="User Guide CodeIgniter 4" target="_blank">User Guide</a>
@@ -274,8 +275,11 @@
     </div>
 
     <script src="<?= base_url('assets') ?>/plugins/jquery/jquery.min.js"></script>
+    <script src="<?= base_url('assets') ?>/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="<?= base_url('assets') ?>/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
     <script src="<?= base_url('assets') ?>/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="<?= base_url('assets') ?>/js/scripts.js"></script>
+    <script></script>
 </body>
 
 </html>
